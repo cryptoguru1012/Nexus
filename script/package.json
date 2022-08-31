@@ -1,0 +1,21 @@
+{
+  "name": "testterra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.txs",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@terra-money/terra.js": "1",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0"
+  }
+}
